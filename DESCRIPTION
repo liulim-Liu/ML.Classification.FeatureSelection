@@ -1,0 +1,17 @@
+Package: ML.Classification.FeatureSelection
+Title: Machine Learning Classification and Feature Selection Pipeline
+Version: 0.0.0.9000
+Authors@R: 
+    person("Shirley", "Liu", email = "your.email@example.com", role = c("aut", "cre"))
+Description: Provides an R interface to a Python-based machine learning pipeline
+    for binary and multiclass classification with bootstrap resampling,
+    supervised feature filtering, model comparison, classification performance
+    summaries, variable selection summaries, and feature stability visualization.
+    The package uses reticulate to manage Python dependencies and run the
+    bundled Python pipeline from R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Imports: 
+    reticulate
